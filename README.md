@@ -19,6 +19,5 @@ git commit / git reset —hard / git log等本地repo的操作
 这里使用默认远程origin/master和本地master，没有创建其他分支
 git remote -v # 查看远程库信息
 git pull # 将远程repo更新到本地，实际上是git fetch + git merge
-git rebase -i HEAD^^/HEAD~100/commit-id/commit-id的头几个字符# 合并多个commit为一个完整commit，合理使用rebase命令可以使远程的提交历史干净、简洁！
 git push # 将本地commit更新到远程repo
 ```
