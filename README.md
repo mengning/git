@@ -26,6 +26,6 @@ git push # 将本地commit更新到远程repo
 git pull # 将远程repo更新到本地，实际上是git fetch + git merge
 git branch
 git checkout -b mybranch
-
+git add/git commit A2/A3
 git push # 将本地commit更新到远程repo
 ```
