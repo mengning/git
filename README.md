@@ -1,5 +1,4 @@
-# git
-Git User Guider
+# Git User Guider
 
 ## 第一关：Git本地版本库的基本用法
 ```
