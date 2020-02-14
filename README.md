@@ -21,3 +21,11 @@ git remote -v # 查看远程库信息
 git pull # 将远程repo更新到本地，实际上是git fetch + git merge
 git push # 将本地commit更新到远程repo
 ```
+## 第三关：Git分支合并和变基
+···
+git pull # 将远程repo更新到本地，实际上是git fetch + git merge
+git branch
+git checkout -b mybranch
+
+git push # 将本地commit更新到远程repo
+```
