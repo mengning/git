@@ -1,2 +1,1 @@
-# git
-Git User Guider
+# Git User Guider
