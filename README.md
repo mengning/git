@@ -31,14 +31,6 @@ git checkout master
 git merge mybranch
 git push # 将本地commit更新到远程repo
 ```
-<<<<<<< HEAD
-## 第四关：Git Rebase
-···
-
-···
-=======
-<<<<<<< HEAD
-=======
 ## 第四关：Git Rebase
 ```
 开始一项工作之前，分支要保持与主干master同步
@@ -53,5 +45,3 @@ git pull
 git merge mybranch
 git push # 将本地commit更新到远程repo
 ```
->>>>>>> 5c4c82a... B3
->>>>>>> 0552b74... B2&B3
