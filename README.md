@@ -35,8 +35,6 @@ git push # 将本地commit更新到远程repo
 ```
 开始一项工作之前，分支要保持与主干master同步
 git checkout -b mybranch # 从master上创建新分支
-git checkout mybranch # 切换到已有分支
-git merge master # 将master上的更新合并过来再开始新工作
 git add/git commit B2/B3
 git rebase
 git rebase --continue
