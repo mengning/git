@@ -25,17 +25,19 @@ git push # 将本地commit更新到远程repo
 ```
 git pull # 将远程repo更新到本地，实际上是git fetch + git merge
 git branch
-git checkout -b mybranch
+git checkout -b mybranch # 创建自己的工作分支
 git add/git commit A2/A3
 git checkout master
-git merge mybranch
-git push # 将本地commit更新到远程repo
+当其他小伙伴在你git push之前已经更新过远程repo，这时你git push时可能会失败，因为在master上发生了分叉，要首先git pull。
+git merge mybranch # 将自己的工作合并到master，并尽快更新到远程repo。如果不幸其他小伙伴的更新和你本地的commit有冲突（都修改了同一位置），需要先处理冲突
+git push # 将本地commit更新到远程repo，
 ```
 ## 第四关：Git Rebase
 ```
-开始一项工作之前，分支要保持与主干master同步
-git checkout -b mybranch # 从master上创建新分支
-git add/git commit B2/B3
+在分支上完成自己的工作之后，为了让log记录将来更容易回朔参考，需要用git rebase重整一下
+git pull # 将远程repo更新到本地，实际上是git fetch + git merge
+git checkout -b mybranch # 创建自己的工作分支
+git add/git commit A2/A3。。。
 git rebase
 git rebase --continue
 git checkout master
